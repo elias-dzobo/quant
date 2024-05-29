@@ -80,3 +80,7 @@ def main(token):
 
     return f'{token}_historical_data_{default_start_date.strftime("%Y-%m-%d")}-{default_end_date.strftime("%Y-%m-%d")}.csv'
 
+
+
+if __name__ == '__main__':
+    main('SOL')

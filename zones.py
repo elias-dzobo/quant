@@ -3,6 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.dates as mdates
 from mplfinance.original_flavor import candlestick_ohlc
+import streamlit as st 
 
 
 def zones(token_data):
@@ -71,4 +72,4 @@ def zones(token_data):
     plt.tight_layout()
 
     # Show plot
-    plt.show()
+    st.pyplot(fig) 

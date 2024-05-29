@@ -3,10 +3,10 @@ from zones import *
 from utils import * 
 
 # Set the title of the Streamlit app
-st.title("Text to Graph Streamlit App")
+st.title("Crypto Quant")
 
 # Add a text input field
-input_data = st.text_area("Enter crypto token")
+input_data = st.text_input("Enter crypto token")
 
 if st.button('Get Results'):
     # Check if the input field is not empty
